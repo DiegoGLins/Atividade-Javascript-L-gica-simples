@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 10</title>
+  </head>
+  <body>
+    <!-- Escreva um algoritmo que armazene o ano atual e o ano de -->
+    <!-- nascimento de uma pessoa. Escrever uma mensagem no console -->
+    <!-- que diga se ela poderá ou não votar este ano (não é necessário -->
+    <!-- considerar o mês em que a pessoa nasceu) -->
+    <script src="./Exerc10.js">
+
+      const birthYear = parseInt(prompt('Digite o ano de nascimento:'));
+      let data = new Date();
+      let year = data.getFullYear();
+      let = year - birthYear;
+      let idade = year - birthYear;
+      if (idade >= 16) {
+        document.write('Você já está apto a votar');
+      } else {
+        document.write('Desculpe você não está apto a votar');
+      }
+    </script>
+  </body>
+</html>
